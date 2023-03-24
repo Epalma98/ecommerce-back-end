@@ -16,10 +16,10 @@ Tag.init(
     tag_name: {
       type: DataTypes.STRING
     },
-    products: {
-      type: DataTypes.STRING,
+    // products: {
+    //   type: DataTypes.STRING,
       
-    } 
+    // } 
   },
   {
     sequelize,
